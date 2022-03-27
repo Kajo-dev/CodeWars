@@ -1,4 +1,8 @@
-def order(words):
-  return ' '.join(sorted(words.split(), key=lambda w:sorted(w)))
+from curses.ascii import isdigit
+from sre_compile import isstring
 
-print(order('4of Fo1r pe6ople g3ood th5e the2'))
+
+k="kajo"
+if isstring(k):  print('j')
+
+print(ord("!"))

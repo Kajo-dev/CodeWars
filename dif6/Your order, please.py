@@ -19,7 +19,7 @@ def order(sentence):
             print(mi)
             ind=kolejnosc.index(mi)
             print('ind',ind)
-            kolejnosc[ind]=100
+            kolejnosc[ind]=10
             wynik.append(lista[ind])
             print(kolejnosc)
         tekst=""
