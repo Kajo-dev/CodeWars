@@ -1,5 +1,4 @@
 #'is2 Thi1s T4est 3a'
-from copy import copy
 
 
 def order(sentence):
@@ -16,12 +15,9 @@ def order(sentence):
                     kolejnosc.append(pom)
         for i in range(len(lista)):
             mi=min(kolejnosc)
-            print(mi)
             ind=kolejnosc.index(mi)
-            print('ind',ind)
-            kolejnosc[ind]=10
+            kolejnosc[ind]=10 #nie ma więcej jak 10 
             wynik.append(lista[ind])
-            print(kolejnosc)
         tekst=""
         for i in range(len(wynik)):
             pom=wynik[i]
