@@ -13,5 +13,6 @@ def permutations(s):
         wynik.append(slowo)
         wynik=list(set(wynik))
     return wynik
+    
 print(permutations('aabb'))
 

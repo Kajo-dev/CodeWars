@@ -1,6 +1,5 @@
 from operator import truediv
 
-
 def find_uniq(arr):
     tab=arr
     while True:

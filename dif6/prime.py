@@ -10,7 +10,6 @@ def czypierwsza(liczba):
             return False
     return True
 
-
 from math import sqrt
 def is_prime(num):
     if num <= 1:

@@ -1,6 +1,5 @@
 #'is2 Thi1s T4est 3a'
 
-
 def order(sentence):
     if len(sentence)<=1:
         return sentence
