@@ -1,5 +1,5 @@
-s='kajo'
 
-s=s.replace('o','1')
 
-print(s)
+tab = [91, 71, 52, 38, 17, 14, 91, 43, 58, 50, 27, 29, 48]
+
+print(tab.index(91))
