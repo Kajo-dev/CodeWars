@@ -7,4 +7,4 @@ def validate_pin(pin):
     else:
         return False
 
-print(validate_pin('-12345'))
+print(validate_pin('1235'))
