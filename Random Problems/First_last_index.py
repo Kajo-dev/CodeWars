@@ -11,6 +11,7 @@ def szukaj(arr,targ):
         else:
             if targ == arr[i - 1]:
                 end = i - 1
+                break
 
     wynik = []
     wynik.append(start)
